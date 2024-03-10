@@ -111,7 +111,7 @@ main {
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
     .btns {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .button1 {
