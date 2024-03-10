@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik Burned', system-ui;
+}
+
+.navbar {
+    background-color: rgb(17, 17, 97);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgba(3, 3, 120, 0.923);
+}
+
+.main {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    background-color: grey;
+    width: 90vw; /* Adjusted for responsiveness */
+    max-width: 400px; /* Set a max-width to avoid stretching on larger screens */
+    height: 70px;
+    margin-top: 5vh;
+    border-radius: 4vw;
+    padding-right: 1vw;
+    padding-left: 0.5vw;
+    display: flex;
+    justify-content: flex-end; /* Changed to flex-end for alignment */
+    align-items: center; /* Center vertically */
+    padding-top: 1.5vh;
+    font-size: 50px;
+    color: red;
+    overflow-x: scroll;
+    text-align: right;
+}
+
+.display::placeholder{
+    text-align: center;
+    color: black;
+}
+
+
+.flexbox {
+    width: 100vw;
+    height: 70vh; /* Adjusted for responsiveness */
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    width: 90vw; /* Adjusted for responsiveness */
+    max-width: 400px; /* Set a max-width to avoid stretching on larger screens */
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Responsive grid columns */
+    gap: 10px;
+}
+
+.button1 {
+    width: 100%; /* Full width for responsive buttons */
+    height: 70px;
+    font-size: 30px; /* Adjusted for responsiveness */
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+}
+
+main {
+    height: 60vh;
+}
+
+#playlist,
+.btnsfors {
+    width: 5vw;
+    height: 10vh;
+}
+
+.btnsfors {
+    height: 5vh;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#audioPlayer {
+    margin-top: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .btns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .button1 {
+        font-size: 6vw;
+    }
+}
