@@ -11,10 +11,6 @@ let clearVal = () =>{
 
 
 let findResult = (n1, opt, n2) =>{
-    // console.log("num2:", num2);
-    if(num2 == ""){
-        disp.innerHTML = "Wrong input";
-    }
     n1 = parseInt(n1);
     n2 = parseInt(n2);
     if(opt == '+'){
