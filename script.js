@@ -52,7 +52,6 @@ btns.forEach(element => {
             is++;
         });
     }
-
 });
 
 function assignVal(val) {
